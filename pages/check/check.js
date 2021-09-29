@@ -10,7 +10,7 @@ Page({
         tel:'',
         qjsy:'',
         qjsj:'',
-
+        imgurl:'',
     },
 
     onLoad: function (options) {
@@ -22,7 +22,8 @@ Page({
             qjsy:wx.getStorageSync('qjsy'),
             kssj:utils.formatTime(new Date())+' '+wx.getStorageSync('kssj'),
             jssj:utils.formatTime(new Date())+' '+wx.getStorageSync('jssj'),
-            qjsj:utils.formatTime2(new Date())+' 12:43'
+            qjsj:utils.formatTime2(new Date())+' 12:43',
+            imgurl:wx.getStorageSync('imgurl')
         })
     }
 

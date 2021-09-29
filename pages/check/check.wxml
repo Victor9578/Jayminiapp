@@ -1,7 +1,7 @@
 <view id="check">
 
     <view id="topdiv">
-        <image src="../../img/Jay.jpg" class="tx"></image>
+        <image src="{{imgurl}}" class="tx"></image>
         <text class='nm'>{{nm}}</text>
         <text class='etext'>{{bh}}</text>
         <text class='sj'>事假</text>

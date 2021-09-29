@@ -1,18 +1,23 @@
 /* pages/home/home.wxss */
 page{
   height: 100%;
-  background-color:rgb(255, 255, 255);
+  background-color:#E6E6FA;
 }
 
 #homeimg{
-  margin-top: 300rpx;
+  margin-top: 200rpx;
   width: 200rpx;
   height: 200rpx;
   border-radius: 200rpx;
 }
 
+#toptx{
+  font-weight: 800;
+  margin-top: 50rpx;
+}
+
 #weltx{
-  margin-top: 70%;
+  margin-top: 100rpx;
   margin-bottom: 10%;
   margin-left: 50%;
   color: rgb(255, 175, 27);

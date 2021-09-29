@@ -28,7 +28,12 @@ Page({
             code:res.code,
             nm:e.detail.value['nm'],
           },
-          method:'post'
+          method:'post',
+          success(res){
+            wx.showToast({
+              title: res.data,
+            })
+          }
         })
       }
     })

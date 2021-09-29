@@ -4,12 +4,12 @@
   <image id="toutu" src='{{imgurl}}'></image>
   <view class="shuru">
     <form catchsubmit="formSubmit" catchreset="formReset">
-      <input name="nm" style="background-color: aquamarine;" type="text" placeholder="姓名"></input>
-      <input name="wcdd" style="background-color: rgb(255, 242, 122);" type="text" placeholder="外出地点"></input>
-      <input name="tel" style="background-color: rgb(255, 242, 122);" type="text" placeholder="紧急联系电话"></input>
-      <input name="qjsy" style="background-color: rgb(255, 127, 127);" type="text" placeholder="请假事由"></input>
-      <picker mode="time" value="{{kssj}}" start="08:01" end="23:01" bindchange="bindTimeChange1">开始时间{{kssj}}</picker>
-      <picker mode="time" value="{{jssj}}" start="08:01" end="23:01" bindchange="bindTimeChange2">结束时间{{jssj}}</picker>
+      <input placeholder-class="perset" name="nm" type="text" placeholder="姓名"></input>
+      <input placeholder-class="perset" name="wcdd"  type="text" placeholder="外出地点"></input>
+      <input placeholder-class="perset" name="tel" type="text" placeholder="紧急联系电话"></input>
+      <input placeholder-class="perset" name="qjsy" type="text" placeholder="请假事由"></input>
+      <picker class="pk" mode="time" value="{{kssj}}" start="08:01" end="23:01" bindchange="bindTimeChange1" >开始时间{{kssj}}</picker>
+      <picker class="pk" mode="time" value="{{jssj}}" start="08:01" end="23:01" bindchange="bindTimeChange2">结束时间{{jssj}}</picker>
       <button style="margin: 30rpx 0" type="primary" formType="submit">Submit</button>
     </form>
   </view>
