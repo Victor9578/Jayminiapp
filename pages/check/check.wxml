@@ -1,0 +1,25 @@
+<view id="check">
+
+    <view id="topdiv">
+        <image src="../../img/Jay.jpg" class="tx"></image>
+        <text class='nm'>{{nm}}</text>
+        <text class='etext'>{{bh}}</text>
+        <text class='sj'>事假</text>
+        <view id='ht'></view>
+        <text class="dsj">开始时间 : {{kssj}}{{'\n'}}</text>
+        <text class="dsj">结束时间 : {{jssj}}{{'\n'}}</text>
+        <text class="nr">是否离校 : 是{{'\n'}}</text>
+        <text class="nr">外出地点 : {{wcdd}}{{'\n'}}</text>
+        <text class="nr">销假地点 : 临潼校区{{'\n'}}</text>
+        <text class="nr">紧急联系电话 : {{tel}}{{'\n'}}</text>
+        <text class="nr">请假事由 : {{qjsy}}{{'\n'}}</text>
+    </view>
+    <view id="bottomdiv">
+        <image src="https://wx.qlogo.cn/mmopen/vi_32/uPdoKACKvpwcRpJTMXWu7FJgKJt424qSbQqI2rWict1icv1melyvsh46ib8FHWh7KXfMEhPbo5eX40JqGI7qrQe3A/132" class="tx"></image>
+        <text class='nm'>余小涛</text>
+        <text id="xy">地质与环境学院</text>
+        <text class='etext'>审批通过</text>
+        <text class='sj'>{{qjsj}}</text>
+        <view style="background-color: rgba(98, 241, 194, 0); padding: 30rpx; position: relative; display: block;"></view>
+    </view>
+</view>

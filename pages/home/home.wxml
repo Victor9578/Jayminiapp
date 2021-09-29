@@ -1,0 +1,4 @@
+<view class="container">
+  <image id="homeimg" src="../../img/Jay.jpg" bindtap="getUserProfile"></image>
+  <text id='weltx'>-- By Jaywxl</text> 
+</view>

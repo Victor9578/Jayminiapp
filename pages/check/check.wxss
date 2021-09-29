@@ -1,0 +1,68 @@
+/* pages/check/check.wxss */
+page{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F6F8;
+}
+#check{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#topdiv{
+    margin: 20rpx ;
+    background-color:#FFF;
+    border-radius: 20rpx;
+}
+#bottomdiv{
+    margin: 20rpx ;
+    background-color: #FFF;
+    border-radius: 20rpx;
+}
+.tx{
+    margin: 30rpx;
+    width: 85rpx;
+    height:85rpx;
+    border-radius: 85rpx;
+}
+.nm{
+    margin: 30rpx 0;
+    position:absolute;
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.etext{
+    position:absolute;
+    margin: 80rpx 0 0 0;
+    font-size: 30rpx;
+    font-weight:400;
+}
+.sj{
+    position:static;
+    float:right;
+    margin: 30rpx;
+}
+#ht{
+    padding: 3rpx;
+    background-color:#EEEEEE;
+    margin: 0 30rpx 23rpx 30rpx;
+}
+.dsj{
+    margin-bottom: 20rpx;
+    position: relative;
+    display: block;
+    margin-left: 30rpx;
+    font-weight: bold;
+    font-size: 38rpx;
+}
+.nr{
+    padding-bottom: 23rpx;
+    position: relative;
+    display: block;
+    margin-left: 30rpx;
+}
+#xy{
+    position:absolute;
+    margin: 30rpx 0 0 110rpx;
+    font-size: 28rpx;
+}

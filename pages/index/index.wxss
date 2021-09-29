@@ -1,0 +1,20 @@
+/**index.wxss**/
+.shuru{
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+#topcontent{
+  margin-top: 150rpx;
+}
+
+#toutu{
+  margin: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+}
+
+input{
+  margin-bottom: 10rpx;
+}
