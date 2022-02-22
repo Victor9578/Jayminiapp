@@ -15,6 +15,15 @@ Page({
                 wx.navigateTo({
                   url: '../index/index',
                 })
+            },
+            fail:()=>{
+                wx.navigateTo({
+                    url: '../index/index',
+                })
+                wx.showToast({
+                    title: '您已拒绝!!',
+                    icon:'error'
+                })
             }
         })
     },

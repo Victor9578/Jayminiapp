@@ -1,7 +1,7 @@
 <view class="container">
   <image id="homeimg" src="../../img/Jay.jpg" ></image>
   <text id='toptx'>Xust Qjitem</text>
-  <button style="margin-top: 300rpx;background-color: rgb(198, 255, 151);" bindtap="getUserProfile">登录</button>
-  <text style="color: rgb(255, 104, 104); font-size: 28rpx;">请登录进入小程序！</text>
+  <button style="margin-top: 300rpx;background-color: rgb(198, 255, 151);" bindtap="getUserProfile">获取头像</button>
+  <text style="color: rgb(255, 104, 104); font-size: 28rpx;">请获取头像，以便假条制作！</text>
   <text id='weltx'>-- By Jaywxl</text> 
 </view>
